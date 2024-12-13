@@ -1,0 +1,324 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Sairaj
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+        }
+        .header, .footer {
+            background-color: #fff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header a, .footer a {
+            text-decoration: none;
+            color: #000;
+            margin: 0 10px;
+        }
+        .header a:hover, .footer a:hover {
+            color: #b5651d;
+        }
+        .main-banner, .new-arrival-banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+        .main-banner img, .new-arrival-banner img {
+            max-width: 50%;
+            height: auto;
+        }
+        .main-banner .content, .new-arrival-banner .content {
+            max-width: 50%;
+        }
+        .main-banner .content h1, .new-arrival-banner .content h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .main-banner .content p, .new-arrival-banner .content p {
+            font-size: 18px;
+            color: #777;
+        }
+        .main-banner .content button, .new-arrival-banner .content button {
+            background-color: #b5651d;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .main-banner .content button:hover, .new-arrival-banner .content button:hover {
+            background-color: #a0522d;
+        }
+        .featured-categories, .new-arrivals {
+            background-color: #fff;
+            padding: 40px;
+            margin-bottom: 20px;
+        }
+        .featured-categories h2, .new-arrivals h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .categories, .arrivals {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .category, .arrival {
+            flex: 1 1 calc(25% - 20px);
+            background-color: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+        .category img, .arrival img {
+            max-width: 100%;
+            height: auto;
+        }
+        .category p, .arrival p {
+            margin: 10px 0;
+        }
+        .brands {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+        .brands img {
+            max-width: 100px;
+            height: auto;
+        }
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer div {
+            flex: 1;
+        }
+        .footer h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .footer p {
+            font-size: 14px;
+            color: #777;
+        }
+        @media (max-width: 768px) {
+            .main-banner, .new-arrival-banner {
+                flex-direction: column;
+                text-align: center;
+            }
+            .main-banner img, .new-arrival-banner img {
+                max-width: 100%;
+            }
+            .main-banner .content, .new-arrival-banner .content {
+                max-width: 100%;
+            }
+            .categories, .arrivals {
+                flex-direction: column;
+            }
+            .category, .arrival {
+                flex: 1 1 100%;
+            }
+            .brands {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <header class="header">
+   <div class="logo">
+    <a href="#">
+     Sairaj
+    </a>
+   </div>
+   <nav>
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     Product
+    </a>
+    <a href="#">
+     Shop
+    </a>
+    <a href="#">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <section class="main-banner">
+   <div class="content">
+    <h1>
+     Men's New Arrivals
+    </h1>
+    <p>
+     New colors, new styles available in men's spring
+    </p>
+    <button>
+     Shop Collection
+    </button>
+   </div>
+   <img alt="Man wearing a brown sweater" height="500" src="https://storage.googleapis.com/a1aa/image/bhX6rUFGsFIFB9KmhatiYQVwcfMvtXiXj7xejv7BjvJ56e0nA.jpg" width="500"/>
+  </section>
+  <section class="featured-categories">
+   <h2>
+    Featured Categories
+   </h2>
+   <div class="categories">
+    <div class="category">
+     <img alt="Man wearing a black jacket" height="200" src="https://storage.googleapis.com/a1aa/image/ryHpVKFjn8ovLtAyDVlQHZYDPeIf03p63r00cd2IHSru6e0nA.jpg" width="200"/>
+     <p>
+      Men's Jackets
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Man wearing brown pants" height="200" src="https://storage.googleapis.com/a1aa/image/13C312WdIK6GFRUCt3KinJYAx4Rt6ivZSdlxZobwvW1runeJA.jpg" width="200"/>
+     <p>
+      Men's Pants
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Man wearing a white t-shirt" height="200" src="https://storage.googleapis.com/a1aa/image/gSaTYngFvt7NKdhbcpgJPTslSc2udCV0nqBf8Lc32vfs6e0nA.jpg" width="200"/>
+     <p>
+      Men's T-Shirts
+     </p>
+    </div>
+    <div class="category">
+     <img alt="Man wearing red shorts" height="200" src="https://storage.googleapis.com/a1aa/image/xfHifOcL5zs6cExLSlPQret7ZUpfv7Z1QqocQ1JV6ckzr7pPB.jpg" width="200"/>
+     <p>
+      Men's Shorts
+     </p>
+    </div>
+   </div>
+  </section>
+  <section class="new-arrival-banner">
+   <div class="content">
+    <h1>
+     20% OFF NEW ARRIVAL
+    </h1>
+    <button>
+     Shop Now
+    </button>
+   </div>
+   <img alt="Woman wearing a pink checkered jacket" height="500" src="https://storage.googleapis.com/a1aa/image/TtRBx9IUSpasMlQS2uqfXMzAlKzfDGnNw4KgDKmDrzRw6e0nA.jpg" width="500"/>
+  </section>
+  <section class="new-arrivals">
+   <h2>
+    New Arrivals
+   </h2>
+   <div class="arrivals">
+    <div class="arrival">
+     <img alt="Black puffer jacket" height="200" src="https://storage.googleapis.com/a1aa/image/UAUzaXgfeeSHmpp1umOP2srhSXwaKfuXHBWMM9HXUstEr7pPB.jpg" width="200"/>
+     <p>
+      Luxury Puffer Jacket
+     </p>
+     <p>
+      $299.99
+     </p>
+    </div>
+    <div class="arrival">
+     <img alt="Black jogger pants" height="200" src="https://storage.googleapis.com/a1aa/image/oXmcku8rlOKVPtC9B8BYi0NrDutXWJOFBnaPdhTOJZQtuneJA.jpg" width="200"/>
+     <p>
+      Luxury Jogger Pants
+     </p>
+     <p>
+      $149.99
+     </p>
+    </div>
+    <div class="arrival">
+     <img alt="Blue sweatshirt" height="200" src="https://storage.googleapis.com/a1aa/image/VxKTct6yveTQTquXuJH4zE7wP9pMZdWnba2wbNow0et36e0nA.jpg" width="200"/>
+     <p>
+      Luxury Sweatshirt
+     </p>
+     <p>
+      $199.99
+     </p>
+    </div>
+    <div class="arrival">
+     <img alt="Green jogger pants" height="200" src="https://storage.googleapis.com/a1aa/image/AO9HqS14B1p1Cp3dCC9MMHJQknmnJ5NK64VgyqhxDz0suneJA.jpg" width="200"/>
+     <p>
+      Luxury Jogger Pants
+     </p>
+     <p>
+      $149.99
+     </p>
+    </div>
+   </div>
+   <div class="brands">
+    <img alt="Gucci logo" height="50" src="https://storage.googleapis.com/a1aa/image/kJEXmBxdUS4yLBqHw2GI2IpmelBh6E1s1JpKz1TZfF176e0nA.jpg" width="100"/>
+    <img alt="Zara logo" height="50" src="https://storage.googleapis.com/a1aa/image/89zCgE4Gq8LeF6ppE3EFSdkd00oi5f0kdvHZfHkxqfZoq7pPB.jpg" width="100"/>
+    <img alt="Yves Saint Laurent logo" height="50" src="https://storage.googleapis.com/a1aa/image/Uu1fjEdApuXddq6AHyvSdIvv6qe8UWhhVSv1CAfK4eDhr7pPB.jpg" width="100"/>
+    <img alt="Prada logo" height="50" src="https://storage.googleapis.com/a1aa/image/IoouWwZ8P4bgAxvKu5zWJYXBykeMaBwn59YFyBnGXSe06e0nA.jpg" width="100"/>
+    <img alt="Mulberry logo" height="50" src="https://storage.googleapis.com/a1aa/image/Kx5QCVClH0IoIluj9l0FkVzHfKQmHNEjLevW3sc2ubGp6e0nA.jpg" width="100"/>
+   </div>
+  </section>
+  <footer class="footer">
+   <div>
+    <h3>
+     Sairaj
+    </h3>
+    <p>
+     © 2023 Sairaj. All rights reserved.
+    </p>
+   </div>
+   <div>
+    <h3>
+     Explore
+    </h3>
+    <a href="#">
+     About Us
+    </a>
+    <a href="#">
+     Careers
+    </a>
+    <a href="#">
+     Press
+    </a>
+   </div>
+   <div>
+    <h3>
+     Our Services
+    </h3>
+    <a href="#">
+     Shipping
+    </a>
+    <a href="#">
+     Returns
+    </a>
+    <a href="#">
+     FAQ
+    </a>
+   </div>
+   <div>
+    <h3>
+     Shopping
+    </h3>
+    <a href="#">
+     Gift Cards
+    </a>
+    <a href="#">
+     Find a Store
+    </a>
+    <a href="#">
+     Newsletter
+    </a>
+   </div>
+  </footer>
+ </body>
+</html>
